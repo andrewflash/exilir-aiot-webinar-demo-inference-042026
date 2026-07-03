@@ -3,7 +3,7 @@
 Demo deteksi anomali getaran menggunakan platform **Edge Impulse**, board **ESP32 DevKit V1**, dan sensor accelerometer/gyro **MPU6050**.
 
 > **Project ini bagian 2 dari 2.**
-> Project ini menjalankan **model hasil training Edge Impulse langsung di ESP32** (on-device inference). Data getaran dibaca dari MPU6050, diklasifikasikan, lalu hasilnya ditampilkan lewat serial. Pengumpulan data ada di [project bagian 1](../VIBRATION_DATA_COLLECTOR).
+> Project ini menjalankan **model hasil training Edge Impulse langsung di ESP32** (on-device inference). Data getaran dibaca dari MPU6050, diklasifikasikan, lalu hasilnya ditampilkan lewat serial. Pengumpulan data ada di [project bagian 1 (Data Collector)](https://github.com/andrewflash/exilir-aiot-webinar-demo-collect-042026).
 
 ## Cara Kerja
 
