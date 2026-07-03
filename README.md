@@ -107,6 +107,16 @@ Interpretasi:
 
 > Nilai `ANOMALY_THRESHOLD` dan `BAR_WIDTH` bisa diubah di bagian atas [src/main.cpp](src/main.cpp).
 
+Contoh hasil di serial monitor:
+
+**Kondisi diam** (getaran terdeteksi sebagai label `diam`, status NORMAL):
+
+![Hasil deteksi kondisi diam](img/result-diam.png)
+
+**Kondisi anomali** (anomaly score di atas ambang, status ANOMALI):
+
+![Hasil deteksi kondisi anomali](img/result-anomali.png)
+
 ## Struktur Project
 
 ```
@@ -118,6 +128,8 @@ VIBRATION_INFERENCE_APP/
 │   └── DemoVibration_inferencing/    # Library inference dari Edge Impulse
 ├── img/
 │   ├── wiring.png                    # Diagram wiring
-│   └── ei-impulse.png                # Konfigurasi impulse
+│   ├── ei-impulse.png                # Konfigurasi impulse
+│   ├── result-diam.png               # Hasil deteksi kondisi diam
+│   └── result-anomali.png            # Hasil deteksi kondisi anomali
 └── README.md
 ```
